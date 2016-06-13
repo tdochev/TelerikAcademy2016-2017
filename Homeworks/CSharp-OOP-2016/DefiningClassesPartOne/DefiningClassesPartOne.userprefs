@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="DefiningClassesPartOne/DefiningClassesPartOne.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DefiningClassesPartOne/Tests/GSMTest.cs">
+    <Files>
+      <File FileName="DefiningClassesPartOne/Start.cs" Line="15" Column="1" />
+      <File FileName="DefiningClassesPartOne/Models/GSM.cs" Line="154" Column="10" />
+      <File FileName="DefiningClassesPartOne/Models/Battery.cs" Line="4" Column="29" />
+      <File FileName="DefiningClassesPartOne/Models/Call.cs" Line="34" Column="29" />
+      <File FileName="DefiningClassesPartOne/Tests/GSMTest.cs" Line="30" Column="2" />
+      <File FileName="DefiningClassesPartOne/Tests/GSMCallHistoryTest.cs" Line="30" Column="39" />
+      <File FileName="DefiningClassesPartOne/Models/Display.cs" Line="55" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DefiningClassesPartOne PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
