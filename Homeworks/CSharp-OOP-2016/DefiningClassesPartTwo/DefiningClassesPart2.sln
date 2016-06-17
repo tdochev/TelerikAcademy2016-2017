@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Point3D", "Point3D\Point3D.csproj", "{2919700B-5C29-46D3-9A0A-D08FC80F0669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericList", "GenericList\GenericList.csproj", "{9422406F-EC83-4D1D-AEC2-48BA5651DB62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{70AAA0B1-FC7A-4740-B449-6AC9E2B93BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2919700B-5C29-46D3-9A0A-D08FC80F0669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2919700B-5C29-46D3-9A0A-D08FC80F0669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2919700B-5C29-46D3-9A0A-D08FC80F0669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2919700B-5C29-46D3-9A0A-D08FC80F0669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9422406F-EC83-4D1D-AEC2-48BA5651DB62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9422406F-EC83-4D1D-AEC2-48BA5651DB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9422406F-EC83-4D1D-AEC2-48BA5651DB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9422406F-EC83-4D1D-AEC2-48BA5651DB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AAA0B1-FC7A-4740-B449-6AC9E2B93BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AAA0B1-FC7A-4740-B449-6AC9E2B93BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AAA0B1-FC7A-4740-B449-6AC9E2B93BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AAA0B1-FC7A-4740-B449-6AC9E2B93BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
