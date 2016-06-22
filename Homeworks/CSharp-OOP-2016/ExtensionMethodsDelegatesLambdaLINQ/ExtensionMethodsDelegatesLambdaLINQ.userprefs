@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="Problem07.Timer/Problem07.Timer.csproj">
+  <MonoDevelop.Ide.ItemProperties.Problem03.FirstBeforeLast PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Problem07.Timer/TimerStart.cs">
+    <Files>
+      <File FileName="Problem07.Timer/Timer.cs" Line="18" Column="30" />
+      <File FileName="Problem07.Timer/TimerStart.cs" Line="12" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Problem11.ExtractStudentsByEmail PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Problem01.StringBuilder.Substring PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Tsvetomir/Projects/ExtensionMethodsDelegatesLambdaLINQ/Problem03.FirstBeforeLast/FirstBeforeLast.cs" line="11" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Problem09.StudentGroups PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem04.AgeRange PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Problem06.DivisibleBy7And3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem10.StudentGroupsExtensions PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem14.ExtractStudentsWithTwoMarks PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem15.ExtractMarks PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem02.IEnumerableExtensions PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem19.GroupedByGroupNameExtensions PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem05.OrderStudents PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Problem07.Timer PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
