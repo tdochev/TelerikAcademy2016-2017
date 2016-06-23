@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="StudentsAndWorkers/02.StudentsAndWorkers.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Animals/Start.cs">
+    <Files>
+      <File FileName="Animals/Models/Dog.cs" Line="18" Column="89" />
+      <File FileName="Animals/Models/Frog.cs" Line="21" Column="2" />
+      <File FileName="Animals/Models/Cat.cs" Line="21" Column="2" />
+      <File FileName="Animals/Interfaces/ISound.cs" Line="1" Column="1" />
+      <File FileName="Animals/Models/Kitten.cs" Line="16" Column="1" />
+      <File FileName="Animals/Models/Tomcat.cs" Line="17" Column="1" />
+      <File FileName="Animals/Models/Animal.cs" Line="1" Column="1" />
+      <File FileName="Animals/Start.cs" Line="42" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.01.School PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.02.StudentsAndWorkers PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
