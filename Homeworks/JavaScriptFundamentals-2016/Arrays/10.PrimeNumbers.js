@@ -1,24 +1,23 @@
 function solve(params) {
 	var n = +params[0],
 		firstPrimeNumber = 2,
-		isPrime = [],
+		isPrime,
 		i,
-		j;
+		y;
 
-	for (i = firstPrimeNumber; i * i <= n; i += 1) {
-		if (!isPrime[i]) {
-			for (j = i * i; j < n; j += i) {
-				isPrime[j] = true;
+	for (i = n; i >= 0; i -= 1) {
+		isPrime = true;
+		for (y = firstPrimeNumber; y <= Math.sqrt(i); y += 1) {
+			if (i % y === 0) {
+				//console.log(y);
+				isPrime = false;
+				break;
 			}
-
 		}
-	}
-	for (var y = isPrime.length; y >= 0; y = -1) {
-		if (!isPrime[y]) {
-			console.log(y);
+		if (isPrime) {
+			console.log(i);
 			break;
 		}
 	}
 }
-
-solve([13]);
+//solve([26]);
