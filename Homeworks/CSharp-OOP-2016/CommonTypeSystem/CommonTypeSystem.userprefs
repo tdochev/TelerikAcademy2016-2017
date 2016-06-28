@@ -1,0 +1,9 @@
+﻿<Properties StartupItem="StudentClass/StudentClass.csproj">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StudentClass PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
