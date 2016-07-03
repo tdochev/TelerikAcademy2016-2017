@@ -13,4 +13,4 @@ function solve(params) {
     };
     console.log(arr.remove().join('\n'));
 }
-solve([1, 2, 1, 4, 1, 3, 4, 1, 111, 3, 2, 1, '1']);
+//solve([1, 2, 1, 4, 1, 3, 4, 1, 111, 3, 2, 1, '1']);

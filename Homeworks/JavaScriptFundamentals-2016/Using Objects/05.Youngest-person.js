@@ -16,12 +16,12 @@ function solve(params) {
         people.push(new Person(params[i], params[i + 1], +params[i + 2]));
     }
     people.sort(function(a, b) {
-        return b.age - a.age;
+        return a.age - b.age;
     });
     console.log(people[0].fullName());
 }
-solve([
-    'Gosho', 'Petrov', '32',
-    'Bay', 'Ivan', '81',
-    'John', 'Doe', '42'
-]);
+//solve([
+//    'Gosho', 'Petrov', '32',
+//    'Bay', 'Ivan', '81',
+//    'John', 'Doe', '42'
+//]);
