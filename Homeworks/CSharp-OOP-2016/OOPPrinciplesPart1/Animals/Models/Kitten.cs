@@ -1,5 +1,7 @@
 ﻿namespace Animals.Models
 {
+    using Animals.Enums;
+
     class Kitten : Cat
     {
         public Kitten(string name, int age)
@@ -9,7 +11,7 @@
         }
         public override string ToString()
         {
-            return base.ToString() + " " + this.AnimalKind + "(Kitten)" + ".";
+            return base.ToString() + " " /*+ this.AnimalKind */ + "Kitten" + ".";
         }
     }
 }

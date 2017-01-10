@@ -1,9 +1,9 @@
 ﻿namespace Animals
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
 
+    using Animals.Enums;
     using Animals.Models;
 
     class Start
@@ -35,7 +35,7 @@
             var kittenAverageAge = Animal.GetAverageAge(animals.Where(t => t is Kitten));
             var tomcatAverageAge = Animal.GetAverageAge(animals.Where(t => t is Tomcat));
             Console.WriteLine("The average age of all animals in the array is: {0:f2} years.", allAnimalsAverageAge);
-            Console.WriteLine("The Average age per type is:\nDogs - {0:f2} years\nFrogs - {1:f2} years\nKitten - {2:f2} years\nTomcat - {3:f2} years"
+            Console.WriteLine("The Aaerage age per type is:\nDogs - {0:f2} years\nFrogs - {1:f2} years\nKitten - {2:f2} years\nTomcat - {3:f2} years"
                 , dogsAverageAge, frogsAverageAge, kittenAverageAge, tomcatAverageAge);
         }
     }

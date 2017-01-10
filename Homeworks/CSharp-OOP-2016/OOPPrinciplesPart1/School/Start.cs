@@ -10,7 +10,9 @@
             var secondDiscipline = new Discipline("Physics", 22, 4);
             var firstTeacher = new Teacher("Georgi Gerogiev", "Some comment for the teacher...");
             var secondTeacher = new Teacher("Ivan Ivanov");
-            firstTeacher.AddDiscipline(firstDiscipline);
+            firstTeacher.AddDiscipline(null);
+
+            firstTeacher.GetDisciplines().ForEach(x => System.Console.WriteLine(x.Name));
             firstTeacher.AddDiscipline(secondDiscipline);
             secondTeacher.AddDiscipline(firstDiscipline);
             secondTeacher.AddDiscipline(secondDiscipline);

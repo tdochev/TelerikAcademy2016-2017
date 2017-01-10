@@ -1,5 +1,7 @@
 ﻿namespace Animals.Models
 {
+    using Animals.Enums;
+
     class Dog : Animal
     {
         public Dog(string name, int age, Sex sex) 

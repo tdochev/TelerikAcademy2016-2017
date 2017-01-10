@@ -1,10 +1,12 @@
 ﻿namespace Animals.Models
 {
-    using System;
-    using System.Linq;
-    using Animals.Interfaces;
-    using System.Collections;
+
     using System.Collections.Generic;
+    using System.Linq;
+
+    using Animals.Interfaces;
+    using Animals.Enums;
+
     public abstract class Animal : ISound
     {
         public Animal(string name, int age, Sex sex)

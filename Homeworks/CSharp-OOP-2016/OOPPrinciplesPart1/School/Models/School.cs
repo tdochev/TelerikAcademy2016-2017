@@ -2,11 +2,12 @@
 {
     using System.Collections.Generic;
     using Interfaces;
+    using Common;
 
     public class School : IComment
     {
-        private List<Student> students;
-        private List<Teacher> teachers;
+        private IList<Student> students;
+        private IList<Teacher> teachers;
 
         public School(string identifier)
         {
@@ -35,21 +36,25 @@
 
         public void AddStudent(Student student)
         {
+            Validator.ValidateNull(student, Messages.STUDENT_CANNOT_BE_NULL);
             this.students.Add(student);
         }
 
         public void AddTeacher(Teacher teacher)
         {
+            Validator.ValidateNull(teacher, Messages.TEACHER_CANNOT_BE_NULL);
             this.teachers.Add(teacher);
         }
 
         public void RemoveStudent(Student student)
         {
+            Validator.ValidateNull(student, Messages.STUDENT_CANNOT_BE_NULL);
             this.students.Remove(student);
         }
 
         public void RemoveTeacher(Teacher teacher)
         {
+            Validator.ValidateNull(teacher, Messages.TEACHER_CANNOT_BE_NULL);
             this.teachers.Remove(teacher);
         }
 

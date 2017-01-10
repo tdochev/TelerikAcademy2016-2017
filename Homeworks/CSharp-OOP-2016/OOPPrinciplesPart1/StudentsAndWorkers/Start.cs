@@ -9,7 +9,7 @@
     {
         private static void Main()
         {
-            List<Human> humans = new List<Human>();
+            IList<Human> humans = new List<Human>();
             var students = new List<Student>()
             {
             new Student("Ivan", "Ivanov", 2),
@@ -26,12 +26,12 @@
             var studentsSortedByGradeAscending = students.OrderBy(s => s.Grade);
             foreach (var student in studentsSortedByGradeAscending)
             {
-                humans.Add(student);
+                //humans.Add(student);
                 Console.WriteLine(student);
             }
 
             Console.WriteLine();
-            var workers = new List<Worker>()
+            IList<Worker> workers = new List<Worker>()
             {
                 new Worker("Petyo", "Petev", 320, 8),
                 new Worker("Misho", "Mishev", 240, 7),
@@ -45,18 +45,20 @@
                 new Worker("Yordan", "Yordanov", 280, 8),
             };
             var workersSortedByMoneyPerHourDescending = workers.OrderByDescending(w => w.MoneyPerHour());
-            Console.WindowWidth += 10;
+            Console.WindowWidth += 30;
             foreach (var worker in workersSortedByMoneyPerHourDescending)
             {
-                humans.Add(worker);
+                //humans.Add(worker);
                 Console.WriteLine(worker);
             }
-
             Console.WriteLine();
+
+            humans = humans.Concat(students).Concat(workers).ToList();
+
             var humansSorted = humans.OrderBy(h => h.FirstName).ThenBy(h => h.LastName);
             foreach (var human in humansSorted)
             {
-                Console.WriteLine(human);
+                Console.WriteLine(human.FirstName + " " + human.LastName);
             }
         }
     }

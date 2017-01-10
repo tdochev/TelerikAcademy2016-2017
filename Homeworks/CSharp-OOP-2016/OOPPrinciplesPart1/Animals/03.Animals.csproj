@@ -43,12 +43,12 @@
   <ItemGroup>
     <Compile Include="Interfaces\ISound.cs" />
     <Compile Include="Models\Animal.cs" />
-    <Compile Include="Models\AnimalKind.cs" />
+    <Compile Include="Enums\AnimalKind.cs" />
     <Compile Include="Models\Cat.cs" />
     <Compile Include="Models\Dog.cs" />
     <Compile Include="Models\Frog.cs" />
     <Compile Include="Models\Kitten.cs" />
-    <Compile Include="Models\Sex.cs" />
+    <Compile Include="Enums\Sex.cs" />
     <Compile Include="Models\Tomcat.cs" />
     <Compile Include="Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

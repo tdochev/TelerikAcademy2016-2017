@@ -1,4 +1,4 @@
-﻿namespace Animals.Models
+﻿namespace Animals.Enums
 {
     public enum AnimalKind
     {
